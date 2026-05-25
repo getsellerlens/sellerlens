@@ -1,4 +1,18 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SellerLens — Know Your Real Profit</title>
+<meta name="description" content="SellerLens tracks every sale, fee, refund, and payout across all your stores. Always know your real profit after every fee. Works with eBay, Amazon, Mercari and more.">
+<meta name="keywords" content="eBay profit tracker, reseller dashboard, Amazon seller tools, profit tracking, eBay seller tools">
+<meta property="og:title" content="SellerLens — Know Your Real Profit">
+<meta property="og:description" content="Done-for-you profit tracking dashboard for online resellers. Customized to your stores. Delivered in 24 hours.">
+<meta property="og:image" content="https://raw.githubusercontent.com/getsellerlens/sellerlens/main/dashboard.png">
+<meta property="og:url" content="https://getsellerlens.com">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SellerLens — Know Your Real Profit">
+<meta name="twitter:description" content="Done-for-you profit tracking dashboard for online resellers. Customized to your stores. Delivered in 24 hours.">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/getsellerlens/sellerlens/main/dashboard.png">
+<link rel="icon" type="image/png" href="https://raw.githubusercontent.com/getsellerlens/sellerlens/main/favicon.png">
+<link rel="apple-touch-icon" href="https://raw.githubusercontent.com/getsellerlens/sellerlens/main/favicon.png">
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
@@ -7,9 +21,7 @@ body{font-family:'DM Sans',sans-serif;background:#fafaf7;color:#1a1a18;line-heig
 a{text-decoration:none}
 nav{position:sticky;top:0;z-index:99;background:rgba(250,250,247,.96);backdrop-filter:blur(8px);border-bottom:1px solid #e0ddd6;height:58px;display:flex;align-items:center;justify-content:space-between;padding:0 2rem;width:100%}
 @media(max-width:600px){nav{padding:0 1rem}}
-.logo{font-family:'DM Serif Display',serif;font-size:19px;color:#0f4a32;display:flex;align-items:center;gap:7px}
-.logo-dot{width:26px;height:26px;background:#1a6b4a;border-radius:5px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
-.logo-dot svg{width:14px;height:14px;fill:white}
+.nav-logo img{height:36px;width:auto;display:block}
 .nav-btn{background:#1a6b4a;color:#fff;padding:8px 18px;border-radius:6px;font-size:13px;font-weight:500;white-space:nowrap}
 .hero{text-align:center;padding:5rem 2rem 3rem;width:100%}
 @media(max-width:600px){.hero{padding:3rem 1rem 2rem}}
@@ -92,17 +104,16 @@ h2{font-family:'DM Serif Display',serif;font-size:clamp(24px,3.5vw,38px);line-he
 .footer-cta h2 em{font-style:italic;color:#7ecfad}
 .footer-cta p{font-size:15px;color:rgba(255,255,255,.55);margin-bottom:2rem;font-weight:300}
 .btn-light{display:inline-block;background:#fff;color:#0f4a32;padding:15px 34px;border-radius:7px;font-size:15px;font-weight:500}
-footer{border-top:1px solid #e0ddd6;padding:1.25rem 2rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem;width:100%}
-@media(max-width:600px){footer{padding:1.25rem 1rem}}
+footer{border-top:1px solid #e0ddd6;padding:2rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;width:100%}
+@media(max-width:600px){footer{padding:1.5rem 1rem;flex-direction:column;align-items:flex-start}}
+.footer-left{display:flex;flex-direction:column;gap:.5rem}
+.footer-logo img{height:32px;width:auto}
 footer p{font-size:12px;color:#888880}
 footer a{font-size:12px;color:#2d9068}
 </style></head><body>
 
 <nav>
-<a href="#" class="logo">
-<div class="logo-dot"><svg viewBox="0 0 24 24"><path d="M3 3h18v4H3zM3 10h12v4H3zM3 17h8v4H3z"/></svg></div>
-SellerLens
-</a>
+<a href="#" class="nav-logo"><img src="https://raw.githubusercontent.com/getsellerlens/sellerlens/main/logo.png" alt="SellerLens"></a>
 <a href="#pricing" class="nav-btn">Get SellerLens — $147</a>
 </nav>
 
@@ -251,7 +262,10 @@ SellerLens
 </section>
 
 <footer>
+<div class="footer-left">
+<div class="footer-logo"><img src="https://raw.githubusercontent.com/getsellerlens/sellerlens/main/logo.png" alt="SellerLens"></div>
 <p>© 2026 SellerLens. All rights reserved.</p>
+</div>
 <a href="mailto:getsellerlens@gmail.com">getsellerlens@gmail.com</a>
 </footer>
 
